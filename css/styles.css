@@ -603,6 +603,16 @@ progress {
   height: auto;
 }
 
+.img-logo-small {
+  max-width: 8%;
+  height: auto;
+}
+
+.img-logo-big {
+  max-width: 12%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

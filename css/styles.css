@@ -603,12 +603,7 @@ progress {
   height: auto;
 }
 
-.img-logo-small {
-  max-width: 8%;
-  height: auto;
-}
-
-.img-logo-big {
+.img-logo {
   max-width: 12%;
   height: auto;
 }

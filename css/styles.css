@@ -11342,41 +11342,43 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
-#mainNav {
-  box-shadow: none;
-  background-color: transparent;
-}
-#mainNav .navbar-brand {
-  color: rgba(255, 255, 255, 0.7);
-}
-#mainNav .navbar-brand:hover {
-  color: #fff;
-}
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
-  padding: 0 1rem;
-}
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fff;
-}
-#mainNav .navbar-nav .nav-item:last-child .nav-link {
-  padding-right: 0;
-}
-#mainNav.navbar-shrink {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-}
-#mainNav.navbar-shrink .navbar-brand {
-  color: #212529;
-}
-#mainNav.navbar-shrink .navbar-brand:hover {
-  color: #f4623a;
-}
-#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-  color: #212529;
-}
-#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-  color: #f4623a;
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f4623a;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #f4623a;
+  }
 }
 
 header.masthead {
@@ -11418,19 +11420,17 @@ header.masthead hr.divider {
   position: relative;
   z-index: 1; /* Set a positive z-index to move the text in front of the video */
 }
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-  header.masthead h1, header.masthead .h1 {
-    font-size: 3rem;
-  }
+header.masthead {
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 4.5rem;
+  padding-bottom: 0;
+}
+header.masthead p {
+  font-size: 1.15rem;
+}
+header.masthead h1, header.masthead .h1 {
+  font-size: 3rem;
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
